@@ -1,0 +1,32 @@
+{
+    "banners": [
+        {
+            "title": "Về Đà Nẵng",
+            "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F3.jpg?alt=media&token=2fa1d269-43d6-4b6b-a07e-d61313f2fa63",
+            "description": "Trở về Đà Nẵng, nơi mà sự kết hợp hoàn hảo giữa thiên nhiên và hiện đại sẽ mang đến cho bạn những trải nghiệm đáng nhớ. Thành phố biển năng động này luôn chào đón bạn bằng sự hiếu khách và cảnh quan đẹp mắt."
+        },
+        {
+            "title": "Những cây cầu",
+            "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F1.jpg?alt=media&token=06933a6d-a1ec-45f3-be44-1e0408e08d51",
+            "description": "Đà Nẵng, thành phố nổi tiếng với những cây cầu mang tính biểu tượng, kết nối hai bờ sông Hàn và tạo nên những cảnh quan tuyệt đẹp. Đây là điểm đến lý tưởng cho những ai yêu thích kiến trúc hiện đại và sự lung linh về đêm."
+        },
+
+        {
+            "title": "Địa điểm nổi bật",
+            "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F2.jpg?alt=media&token=0f54aef0-d0f1-4d45-84d9-0045362c63d6",
+            "description": "Khám phá những địa điểm nổi bật tại Đà Nẵng, từ Bà Nà Hills với khung cảnh trên mây, đến bán đảo Sơn Trà xanh mát, tất cả đều là những kỳ quan đáng để ghé thăm một lần trong đời."
+        },
+        {
+            "title": "Sự kiện nổi bật",
+            "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F4.jpg?alt=media&token=45a5036c-218c-4034-9da3-21ee1799ff4d",
+
+            "description": "Đà Nẵng luôn là tâm điểm của những sự kiện lớn nhỏ, từ lễ hội pháo hoa quốc tế đến các sự kiện văn hóa, nghệ thuật hoành tráng. Đây là cơ hội để du khách trải nghiệm những khoảnh khắc đáng nhớ và vui vẻ."
+        },
+        {
+            "title": "Hành trình khám phá",
+            "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F14.jpg?alt=media&token=afa09bce-2ff3-4a1b-842c-3292ecfc872b",
+
+            "description": "Mỗi chuyến đi đến Đà Nẵng là một hành trình khám phá không giới hạn, từ những bãi biển dài cát trắng, cho đến những góc phố nhỏ đầy ắp lịch sử và văn hóa."
+        }
+    ]
+}

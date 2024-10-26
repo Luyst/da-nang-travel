@@ -1,0 +1,68 @@
+[
+    {
+        "id": "cau-rong",
+        "title": "Cầu Rồng",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/banner%2F1.jpg?alt=media&token=06933a6d-a1ec-45f3-be44-1e0408e08d51",
+        "description": "Cầu Rồng là biểu tượng nổi bật của Đà Nẵng, thu hút hàng ngàn du khách mỗi năm. Được thiết kế dưới hình dạng một con rồng khổng lồ, cây cầu này không chỉ tượng trưng cho sức mạnh và may mắn trong văn hóa Á Đông, mà còn gây ấn tượng mạnh với khả năng phun lửa và nước vào mỗi tối cuối tuần. Khung cảnh rực rỡ của Cầu Rồng kết hợp với hệ thống đèn LED chiếu sáng lấp lánh khiến đây trở thành một trong những địa điểm không thể bỏ qua khi đến với Đà Nẵng. Du khách có thể tham gia vào các tour du lịch để chiêm ngưỡng cây cầu từ trên cao hoặc thưởng thức những món ăn đặc sản tại các quán ăn ven sông Hàn gần cầu.",
+        "content": [
+            {
+                "title": "Khám phá",
+                "text": [
+                    "Phun lửa: Theo thiết kế, con rồng trên cầu có thể phun lửa trong hai phút và kế tiếp là 3 phút phun nước khiến cầu đã trở thành một điểm nhấn ấn tượng, độc đáo và hấp dẫn ở Thành phố Đà Nẵng.",
+                    "Phun nước: Một lần phun (3 phút), cần 20m3 nước và 40kWh điện. Con Rồng không phun dòng nước đặc mà phun nước thành luồng hơi cực mạnh và đẹp, thể hiện khát vọng vươn xa của Đà Nẵng. Để làm điều này, cầu được thiết kế bồn chứa 20 mét khối nước và 325 mét khối khí nén, tao ra hàng vạn mét khối hơi lẫn nước phun với lưu tốc 1.944 l/s."
+                ]
+            }
+        ],
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "ba-na-hills",
+        "title": "Bà Nà Hills",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fbana_1.jpg?alt=media&token=d65338c4-9c90-4a9e-af27-57af6134cefc",
+        "description": "Bà Nà Hills là một khu du lịch nổi tiếng không chỉ với cây Cầu Vàng tuyệt đẹp mà còn với khí hậu mát mẻ quanh năm. Tại đây, du khách có thể tận hưởng những chuyến đi cáp treo dài nhất thế giới, chiêm ngưỡng toàn cảnh núi rừng hùng vĩ và những công trình kiến trúc mang phong cách châu Âu cổ điển. Bà Nà Hills còn là nơi lý tưởng để trải nghiệm các hoạt động vui chơi giải trí, khám phá vườn hoa và tham quan ngôi làng Pháp độc đáo. Các hoạt động như tham gia các trò chơi mạo hiểm hay thưởng thức ẩm thực địa phương cũng là những trải nghiệm không thể thiếu khi đặt chân đến đây.",
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "bien-my-khe",
+        "title": "Bãi biển Mỹ Khê",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fmykhe_3.jpg?alt=media&token=b0b7caf7-35bb-4d18-a0ea-4e27b460b624",
+        "description": "Bãi biển Mỹ Khê được biết đến là một trong những bãi biển đẹp nhất thế giới với cát trắng mịn và nước biển trong xanh. Đây là địa điểm lý tưởng để du khách tận hưởng những giây phút thư giãn, tắm biển, hoặc tham gia các hoạt động thể thao dưới nước như lướt sóng, chèo thuyền kayak. Bãi biển còn có một hệ thống khách sạn, resort cao cấp ven biển, mang đến cho du khách những trải nghiệm nghỉ dưỡng tuyệt vời. Vào buổi tối, bãi biển trở nên sôi động hơn với các hoạt động vui chơi giải trí và thưởng thức hải sản tươi ngon tại các nhà hàng ven biển.",
+
+        "location": "Đường Nguyễn Văn Linh, Phước Ninh, Đà Nẵng"
+    },
+    {
+        "id": "deo-hai-van",
+        "title": "Đèo Hải Vân",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fdeo-hai-van-da-nang-thua-thien-hue.jpg?alt=media&token=255254b3-7aed-488e-b07f-1238466d91df",
+        "description": "Đèo Hải Vân, con đèo nối liền Đà Nẵng và Huế, là một trong những cung đường đẹp nhất Việt Nam. Với những khúc cua ngoằn ngoèo, cảnh núi non hùng vĩ và tầm nhìn ra biển xanh bát ngát, Đèo Hải Vân mang đến cho du khách cảm giác vừa thách thức vừa thơ mộng. Tại đây, du khách có thể dừng chân chụp ảnh tại các điểm ngắm cảnh nổi tiếng hoặc tham gia vào các hoạt động dã ngoại. Đứng trên đỉnh đèo, du khách có thể nhìn thấy cả thành phố Đà Nẵng, vịnh Lăng Cô và biển Đông trải dài vô tận, tạo nên một bức tranh thiên nhiên tuyệt đẹp.",
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "chua-linh-ung",
+        "title": "Chùa Linh Ứng",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fchua-linh-ung.jpg?alt=media&token=d0eca2b6-12f8-431d-803e-891b475da1d4",
+        "description": "Chùa Linh Ứng nằm trên bán đảo Sơn Trà, là ngôi chùa lớn nhất Đà Nẵng với bức tượng Phật Quan Thế Âm cao 67 mét. Ngôi chùa không chỉ là nơi thờ tự mà còn là một điểm tham quan nổi tiếng thu hút nhiều du khách. Khung cảnh nơi đây thanh bình và thơ mộng, với tầm nhìn ra biển và thành phố Đà Nẵng. Du khách có thể đến đây để cầu bình an và thưởng ngoạn vẻ đẹp của thiên nhiên, cũng như tìm hiểu về văn hóa Phật giáo tại Việt Nam.",
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "asia-park",
+        "title": "Asia Park",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fsun-world.jpg?alt=media&token=040a88d5-a53e-47d5-b27f-b2814076d8e7",
+        "description": "Asia Park là công viên giải trí nổi tiếng với những trò chơi cảm giác mạnh và vòng quay Sun Wheel cao ngất ngưởng. Với sự kết hợp giữa các trò chơi hiện đại và những khu vực tái hiện văn hóa các quốc gia châu Á, Asia Park mang đến cho du khách không chỉ những phút giây vui vẻ mà còn cơ hội khám phá văn hóa phong phú. Du khách có thể tham gia vào nhiều hoạt động giải trí đa dạng, từ các trò chơi cảm giác mạnh đến các buổi biểu diễn nghệ thuật đặc sắc diễn ra trong công viên.",
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "cau-tinh-yeu",
+        "title": "Cầu Tình Yêu",
+        "image": "https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2Fcau-tinh-yeu.jpg?alt=media&token=e080fc89-1139-4485-8665-68be8c8d48da",
+        "description": "Cầu Tình Yêu nằm bên bờ sông Hàn là địa điểm lãng mạn, thu hút các cặp đôi đến treo những chiếc khóa tình yêu để thể hiện sự gắn bó vĩnh cửu. Với thiết kế thanh nhã và khung cảnh thơ mộng, đây là một trong những điểm dừng chân lý tưởng để chụp ảnh và thưởng ngoạn không khí yên bình của Đà Nẵng. Vào buổi tối, cầu được thắp sáng bằng những ánh đèn lung linh, tạo nên khung cảnh huyền ảo và lãng mạn cho những ai đến thăm.",
+        "location": "Đà Nẵng, Việt Nam"
+    },
+    {
+        "id": "cho-con",
+        "title": "Chợ Cồn",
+        "image": "path/to/image.jpg",
+        "description": "Chợ Cồn là một trong những khu chợ nổi tiếng nhất Đà Nẵng, nơi bạn có thể tìm thấy hàng hóa đa dạng từ thực phẩm, quần áo đến các món đặc sản địa phương. Đây là nơi lý tưởng để thưởng thức ẩm thực truyền thống như bánh xèo, mì Quảng, và các món hải sản tươi sống. Không khí nhộn nhịp và sắc màu rực rỡ của chợ Cồn mang đến cho du khách trải nghiệm văn hóa đặc sắc của miền Trung Việt Nam.",
+        "location": "Đà Nẵng, Việt Nam"
+    }
+]
