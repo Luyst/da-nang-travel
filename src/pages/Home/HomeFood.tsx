@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import React from "react";
+import { ImageModel } from "@/models";
 
 type MainContainerProps = {
     title: string;
