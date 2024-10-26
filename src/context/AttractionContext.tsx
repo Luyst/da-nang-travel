@@ -4,16 +4,15 @@ import { collection, getDocs } from "firebase/firestore";
 
 interface Content {
     title: string;
-    text: string;
+    text: string[];
 }
 interface Attraction {
     id: string;
     title: string;
     image: string;
     description: string;
-    location: string;
-    content: Content[];
     mapLink?: string;
+    content?: Content[];
 }
 
 interface AttractionState {
