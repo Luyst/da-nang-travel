@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
+import { ImageModel } from "@/models";
+import SliderContent from "@/components/Slider/SliderContent";
+import SliderControls from "@/components/Slider/SliderControls";
 
 interface SliderProps {
     images: ImageModel[];

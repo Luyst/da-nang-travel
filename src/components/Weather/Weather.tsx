@@ -14,13 +14,13 @@ const Weather: React.FC<WeatherProps> = ({ city }) => {
     const determineTimeOfDay = (localtime: string) => {
         const hour = new Date(localtime).getHours(); // Lấy giờ từ thời gian địa phương của API
         if (hour >= 6 && hour < 12) {
-            return "0";
+            return 0;
         } else if (hour >= 12 && hour < 14) {
-            return "1"; // Buổi trưa
+            return 1; // Buổi trưa
         } else if (hour >= 14 && hour < 18) {
-            return "2";
+            return 2;
         } else {
-            return "3";
+            return 3;
         }
     };
 

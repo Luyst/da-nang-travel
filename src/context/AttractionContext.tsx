@@ -2,13 +2,17 @@ import React, { createContext, useContext, useEffect, useReducer } from "react";
 import { db } from "@/firebase/FirebaseConfig";
 import { collection, getDocs } from "firebase/firestore";
 
+interface Content {
+    title: string;
+    text: string;
+}
 interface Attraction {
     id: string;
     title: string;
     image: string;
     description: string;
     location: string;
-    content: string[];
+    content: Content[];
     mapLink?: string;
 }
 

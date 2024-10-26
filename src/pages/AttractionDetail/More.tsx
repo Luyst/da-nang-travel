@@ -11,7 +11,7 @@ interface Attraction {
     image: string;
     description: string;
     mapLink?: string;
-    content?: Content[]; // Thêm thuộc tính content với kiểu dữ liệu
+    content?: Content[];
 }
 
 export default function More({ attractions }: { attractions: Attraction[] }) {
