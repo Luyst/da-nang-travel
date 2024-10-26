@@ -9,7 +9,7 @@ const Weather: React.FC<WeatherProps> = ({ city }) => {
     const [loading, setLoading] = useState<boolean>(true);
     const [timeOfDay, setTimeOfDay] = useState<number>(0);
 
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=0d4a884d9ea345d595d75510242210&q=${city}&aqi=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/current.json?key=0d4a884d9ea345d595d75510242210&q=${city}&aqi=no`;
 
     const determineTimeOfDay = (localtime: string) => {
         const hour = new Date(localtime).getHours(); // Lấy giờ từ thời gian địa phương của API

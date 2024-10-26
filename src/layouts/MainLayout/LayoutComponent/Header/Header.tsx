@@ -8,8 +8,8 @@ export default function Header() {
             <Link to={`./`} className="LogoDanang ">
                 <img
                     className="size-20 "
-                    src="src\assets\main-logo.png"
-                    alt="123123"
+                    src="https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/main-logo.png?alt=media&token=e713a800-70a7-49ee-90ad-11fd4313d9b6"
+                    alt="logo"
                 />
             </Link>
             <NavBar />
