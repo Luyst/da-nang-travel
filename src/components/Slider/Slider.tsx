@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import SliderControls from "./SliderControls"; // Nhập component SliderControls
+import SliderControls from "./SliderControls";
 import { ImageModel } from "@/models";
 import SliderContent from "./SliderContent";
 interface SliderProps {

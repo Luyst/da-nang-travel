@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Footer.scss";
 export default function Footer() {
     return (
         <footer className="bg-strong text-main py-8 mt-20">
@@ -8,61 +8,46 @@ export default function Footer() {
                     {/* Left Section */}
                     <div>
                         <h2 className="text-xl text-main font-bold mb-2">
-                            Đà Nẵng Tourist
+                            Đà Nẵng Travel
                         </h2>
                         <p className="text-sm text-main">
-                            © {new Date().getFullYear()} Đà Nẵng Tourist. Tất cả
-                            các quyền được bảo lưu.
+                            © {new Date().getFullYear()} Đà Nẵng Tourist.
                         </p>
                     </div>
 
-                    {/* Right Section - Social Links */}
-                    <div className="flex space-x-4">
-                        <a
-                            href="#"
-                            className="text-gray-400 hover:text-main transition-colors duration-300"
-                        >
-                            Facebook
-                        </a>
-                        <a
-                            href="#"
-                            className="text-gray-400 hover:text-main transition-colors duration-300"
-                        >
-                            Instagram
-                        </a>
-                        <a
-                            href="#"
-                            className="text-gray-400 hover:text-main transition-colors duration-300"
-                        >
-                            Twitter
-                        </a>
-                    </div>
-                </div>
-
-                {/* Footer Links */}
-                <div className="mt-8 text-sm flex justify-between">
-                    <div className="space-y-2">
-                        <a href="#" className="hover:underline">
-                            Về Chúng Tôi
-                        </a>
-                        <a href="#" className="hover:underline">
-                            Liên Hệ
-                        </a>
-                        <a href="#" className="hover:underline">
-                            Điều Khoản Dịch Vụ
-                        </a>
-                    </div>
-
-                    <div className="space-y-2">
-                        <a href="#" className="hover:underline">
-                            Chính Sách Bảo Mật
-                        </a>
-                        <a href="#" className="hover:underline">
-                            Câu Hỏi Thường Gặp
-                        </a>
-                        <a href="#" className="hover:underline">
-                            Blog
-                        </a>
+                    <div className="wrapper flex flex-row justify-between mx-2 py-4 px-2 mt-20 border-t-2  border-dark-gray">
+                        <div className="contact *:size-10 *:overflow-hidden flex flex-row gap-4 items-center cursor-pointer  *:gap-4 *:ease-in-out *:duration-500 *:bg-secondary-color *:rounded-full hover:*:w-32">
+                            <a
+                                href="https://www.instagram.com/duchuy_lux/"
+                                target="__blank"
+                                className="instagram button-container flex items-center  group hover:bg-white"
+                            >
+                                <i className="bx bxl-instagram  size-10 p-3 font-bold rounded-full flex items-center justify-center text-xl "></i>
+                                <span className=" span-instagram font-semibold pe-2 -ms-3">
+                                    Instagram
+                                </span>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=100028388523941"
+                                target="__blank"
+                                className="facebook button-container flex items-center  group hover:bg-white"
+                            >
+                                <i className="bx bxl-facebook size-10 p-3 font-bold rounded-full flex items-center justify-center text-xl"></i>
+                                <span className="span-facebook  font-semibold pe-2 -ms-3">
+                                    Facebook
+                                </span>
+                            </a>
+                            <a
+                                href="https://github.com/Luyst/da-nang-travel"
+                                target="__blank"
+                                className="github button-container flex items-center  group hover:bg-white "
+                            >
+                                <i className="bx bxl-github  size-10  p-3 font-bold rounded-full flex items-center justify-center text-xl"></i>
+                                <span className="span-github  font-semibold pe-2 -ms-2">
+                                    GitHub
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

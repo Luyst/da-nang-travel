@@ -7,6 +7,7 @@ interface Attraction {
     title: string;
     image: string;
     description: string;
+    mapLink?: string;
 }
 
 const Attraction: React.FC = () => {

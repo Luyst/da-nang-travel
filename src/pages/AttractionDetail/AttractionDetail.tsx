@@ -11,7 +11,6 @@ export default function AttractionDetail() {
     const { attractions } = state;
 
     const attraction = attractions.find((a) => a.id === attractionId);
-    console.log(attractionId);
     if (!attraction) return <div>Loading...</div>;
 
     return (

@@ -9,6 +9,7 @@ interface Attraction {
     description: string;
     location: string;
     content: string[];
+    mapLink?: string;
 }
 
 interface AttractionState {

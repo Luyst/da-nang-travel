@@ -1,5 +1,5 @@
-import { ImageModel } from "@/models";
 import React from "react";
+import { ImageModel } from "@/models";
 
 type SliderControlsProps = {
     onPrevious: () => void;

@@ -3,8 +3,6 @@ import home from "@/assets/data/home.json"; // Đường dẫn đến tệp JSON
 import { useAttraction } from "@/context/AttractionContext";
 import Slider from "@/components/Slider"; // Đảm bảo bạn nhập đúng đường dẫn đến component Slider
 import HomeAttraction from "./HomeAttraction";
-import HomeFood from "./HomeFood";
-import HomeHighLights from "./HomeHighLights";
 
 const Home: React.FC = () => {
     const { state } = useAttraction();

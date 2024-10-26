@@ -1,5 +1,4 @@
 import Card from "@/components/Card";
-import { ImageModel } from "@/models";
 import React from "react";
 
 type MainContainerProps = {
@@ -25,7 +24,7 @@ export default function HomeFood({
                     </div>
                 </div>
                 <main className="MainContainer flex gap-2">
-                    <div className="leftContainer w-2/5 h-full">
+                    {/* <div className="leftContainer w-2/5 h-full">
                         <Card
                             imageUrl={mainContent[0].image}
                             title={mainContent[0].title}
@@ -40,7 +39,7 @@ export default function HomeFood({
                                 aspect="horizontal"
                             />
                         ))}
-                    </div>
+                    </div> */}
                 </main>
             </section>
         </main>

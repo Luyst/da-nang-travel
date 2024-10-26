@@ -1,7 +1,20 @@
 import Card from "@/components/Card";
 import React from "react";
+interface Content {
+    title: string;
+    text: string[];
+}
 
-export default function More({ attractions }) {
+interface Attraction {
+    id: string;
+    title: string;
+    image: string;
+    description: string;
+    mapLink?: string;
+    content?: Content[]; // Thêm thuộc tính content với kiểu dữ liệu
+}
+
+export default function More({ attractions }: { attractions: Attraction[] }) {
     return (
         <div className="MainContainer grid grid-cols-3 gap-6">
             {attractions.slice(0, 3).map((content, index) => (

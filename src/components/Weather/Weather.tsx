@@ -7,20 +7,20 @@ interface WeatherProps {
 const Weather: React.FC<WeatherProps> = ({ city }) => {
     const [weather, setWeather] = useState<any>(null);
     const [loading, setLoading] = useState<boolean>(true);
-    const [timeOfDay, setTimeOfDay] = useState<string>("day");
+    const [timeOfDay, setTimeOfDay] = useState<number>(0);
 
     const apiUrl = `http://api.weatherapi.com/v1/current.json?key=0d4a884d9ea345d595d75510242210&q=${city}&aqi=no`;
 
     const determineTimeOfDay = (localtime: string) => {
         const hour = new Date(localtime).getHours(); // Lấy giờ từ thời gian địa phương của API
         if (hour >= 6 && hour < 12) {
-            return "morning";
+            return "0";
         } else if (hour >= 12 && hour < 14) {
-            return "noon"; // Buổi trưa
+            return "1"; // Buổi trưa
         } else if (hour >= 14 && hour < 18) {
-            return "afternoon";
+            return "2";
         } else {
-            return "night";
+            return "3";
         }
     };
 
@@ -44,12 +44,12 @@ const Weather: React.FC<WeatherProps> = ({ city }) => {
         fetchWeather();
     }, [city]);
 
-    const backgroundColors = {
-        morning: "from-blue-400 to-gray-400",
-        noon: "from-orange-300 to-red-400 ",
-        afternoon: "from-cyan-400 to-yellow-400",
-        night: "from-blue-950 to-purple-700 ",
-    };
+    const backgroundColors = [
+        "from-blue-400 to-gray-400",
+        "from-orange-300 to-red-400 ",
+        "from-cyan-400 to-yellow-400",
+        "from-blue-950 to-purple-700 ",
+    ];
 
     return (
         <div

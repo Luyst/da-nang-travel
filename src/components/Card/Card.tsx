@@ -37,6 +37,7 @@ const Card: React.FC<CardProps> = ({
         <Link
             to={`/attractions/${id}`}
             className="CardCotainer rounded-lg overflow-hidden shadow-lg"
+            key={id}
         >
             <div className={` overflow-hidden   aspect-video`}>
                 <img
