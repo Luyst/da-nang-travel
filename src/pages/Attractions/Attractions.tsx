@@ -20,7 +20,7 @@ const Attraction: React.FC = () => {
         <div className="AttractionPageContainer space-y-8 pt-28 ">
             <div className="BannerHeader mx-8 overflow-hidden rounded-3xl">
                 <img
-                    src="src/assets/data/downloaded_images/attractions/113030473.avif"
+                    src="https://firebasestorage.googleapis.com/v0/b/da-nang-travel-812a5.appspot.com/o/attractions%2F113030473.avif?alt=media&token=a991a260-d123-4232-9742-bda1ab7ceea1"
                     alt="123"
                     className="w-full rounded-3xl shadow-lg object-cover"
                 />
