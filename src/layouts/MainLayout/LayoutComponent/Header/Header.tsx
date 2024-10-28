@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <header className=" HeaderContainer px-40 flex py-4 w-full  justify-between items-center absolute z-50 ">
+        <header className=" HeaderContainer px-40 sm:flex py-4 w-full  justify-between items-center absolute z-50  hidden ">
             <Link to={`./`} className="LogoDanang ">
                 <img
                     className="size-20 "
@@ -12,7 +12,9 @@ export default function Header() {
                     alt="logo"
                 />
             </Link>
-            <NavBar />
+            <div className="hidden sm:block">
+                <NavBar />
+            </div>
         </header>
     );
 }

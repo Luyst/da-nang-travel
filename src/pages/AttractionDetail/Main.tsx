@@ -16,7 +16,7 @@ interface Attraction {
 
 export default function Main({ attraction }: { attraction: Attraction }) {
     return (
-        <div className="MainLeft px-20 space-y-3">
+        <div className="MainLeft md:px-20  space-y-3">
             <p className="text-lg font-semibold italic">
                 {attraction.description}
             </p>

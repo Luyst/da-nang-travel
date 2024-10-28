@@ -7,8 +7,8 @@ import Weather from "@/components/Weather";
 
 export default function Introduce() {
     return (
-        <header className="IntroduceContaienr flex  px-32   ">
-            <div className="LeftContainer w-2/3 pe-40 space-y-8">
+        <header className="IntroduceContaienr sm:flex  sm:px-32   ">
+            <div className="LeftContainer sm:w-2/3 pe-40 space-y-8 hidden sm:block ">
                 <div className="TitleContainer space-y-8">
                     <div className="MainTitleContainer text-primary text-7xl font-bold">
                         Đà Nẵng
@@ -21,7 +21,7 @@ export default function Introduce() {
                     </div>
                 </div>
 
-                <div className="ButtonContainer flex gap-6">
+                <div className="ButtonContainer sm:flex gap-6 hidden">
                     <Button
                         color="bg-pastel-green text-base font-semibold bg-opacity-50"
                         size="large"
@@ -54,7 +54,7 @@ export default function Introduce() {
                     </Button>
                 </div>
             </div>
-            <section className="RightContainer w-1/3   rounded-lg shadow-lg">
+            <section className="RightContainer sm:w-1/3 pt-32 sm:pt-0 rounded-lg shadow-lg">
                 <Weather city="Đà Nẵng" />
             </section>
         </header>

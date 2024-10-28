@@ -34,9 +34,6 @@ const Slider: React.FC<SliderProps> = ({ images, interval = 3000 }) => {
                     src={image.image}
                     alt={image.title}
                 />
-                <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 text-center">
-                    {image.title}
-                </div>
             </div>
         ));
     }, [images]);

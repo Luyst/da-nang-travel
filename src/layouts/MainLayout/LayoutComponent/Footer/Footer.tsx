@@ -3,8 +3,8 @@ import "./Footer.scss";
 export default function Footer() {
     return (
         <footer className="bg-strong text-main py-8 mt-20">
-            <div className="px-40">
-                <div className="flex justify-between items-center">
+            <div className="md:px-40 mx-6">
+                <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Left Section */}
                     <div>
                         <h2 className="text-xl text-main font-bold mb-2">

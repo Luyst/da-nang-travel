@@ -17,14 +17,14 @@ const SliderControls: React.FC<SliderControlsProps> = ({
     images,
 }) => {
     return (
-        <div className="absolute w-full px-40 py-14 bottom-0 bg-black bg-opacity-30">
+        <div className="absolute w-full sm:px-40 py-14 px-6 bottom-0 bg-black bg-opacity-30">
             {/* Thanh ngang di chuyển theo index */}
             <div className=" absolute top-0 left-40 right-40  flex items-center bg-gray-500 h-px">
                 <div
                     className=" h-0.5 rounded-full bg-white transition-transform duration-500"
                     style={{
-                        width: `${100 / images.length}%`, // chiều rộng của thanh chia theo số lượng title
-                        transform: `translateX(${currentIndex * 100}%)`, // Dịch chuyển theo index
+                        width: `${100 / images.length}%`,
+                        transform: `translateX(${currentIndex * 100}%)`,
                     }}
                 ></div>
             </div>

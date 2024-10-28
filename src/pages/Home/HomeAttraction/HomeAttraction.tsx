@@ -30,7 +30,7 @@ export default function HomeAttraction({
             <Introduce />
 
             <main className="HomeAttractionMain" id="HomeAttractionMain">
-                <section className="ContentContainer space-y-16 px-32 py-16 bg-pastel-blue rounded-3xl shadow-lg">
+                <section className="ContentContainer space-y-16 sm:px-32 px-8 py-16 bg-pastel-blue rounded-3xl shadow-lg">
                     <div className="TitleContainer space-y-2">
                         <div className="SubTitle text-xl font-  bg-gradient-to-r to-orange-500 from-blue-500 inline-block text-transparent bg-clip-text">
                             01/ Attractions
@@ -40,7 +40,7 @@ export default function HomeAttraction({
                         </div>
                     </div>
                     <motion.main
-                        className="MainContainer grid grid-cols-3 gap-6"
+                        className="MainContainer sm:grid sm:grid-cols-3 space-y-6 shadow-lg gap-6"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.5 }}

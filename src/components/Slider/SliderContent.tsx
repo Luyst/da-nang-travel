@@ -4,7 +4,7 @@ type Props = {};
 
 export default function SliderContent({}: Props) {
     return (
-        <section className="TitleContainer absolute space-y-5 top-0 px-40 pt-40 z-10">
+        <section className="TitleContainer absolute space-y-5 top-0 px-6 sm:px-40 pt-40 z-10">
             <header className="MainTitle title text-white text-5xl font-bold">
                 Khám Phá Đà Nẵng!
             </header>
